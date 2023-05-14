@@ -4,7 +4,7 @@
  */
 import java.util.Scanner;
 
-public class ex6{
+public class GabrielSilva_Exercicio06{
     public static void main(String[] args){
         Scanner leia = new Scanner(System.in);
         double r = 0;// Inicializando a variável do raio
