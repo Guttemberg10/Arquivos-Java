@@ -4,7 +4,7 @@
  */
 import java.util.Scanner;
 
-public class ex3{
+public class GabrielSilva_Exercicio03{
     public static void main(String[] args){
         Scanner leia = new Scanner(System.in);
         double dolar = 4.95, real = 0;// Inicializando variáveis
