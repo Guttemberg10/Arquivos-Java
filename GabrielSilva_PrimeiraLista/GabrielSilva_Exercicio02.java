@@ -4,7 +4,7 @@
  */
 import java.util.Scanner;
 
-public class ex2{
+public class GabrielSilva_Exercicio02{
     public static void main(String[] args){
         Scanner leia = new Scanner(System.in);
         int n1, n2, n3, n4 = 0;// Inicializando as variáveis
