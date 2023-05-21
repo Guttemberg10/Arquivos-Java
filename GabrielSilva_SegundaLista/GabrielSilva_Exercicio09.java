@@ -8,15 +8,17 @@ public class GabrielSilva_Exercicio09{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         int n1, n2 = 0;
+       
         System.out.print("Digite um número: ");
         n1 = input.nextInt();
         System.out.print("Digite outro número: ");
         n2 = input.nextInt();
-        if(n1 > n2)
+       
+        if(n1 > n2)// Verificando se n1 é o maior
             System.out.print("\n"+n1+" é o maior");
-        else if(n2 > n1)
+        else if(n2 > n1)// Verificando se n2 é o maior
             System.out.print("\n"+n2+" é o maior");
-        else
+        else// Verificando se são iguais
             System.out.print("\nOs números são iguais");
     }
 }
