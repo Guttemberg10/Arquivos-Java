@@ -8,11 +8,13 @@ public class GabrielSilva_Exercicio10{
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         int n1 = 0;
+       
         System.out.print("Digite um número: ");
-        n1 = input.nextInt();
-        if(n1 % 2 == 0)
+        n1 = input.nextInt();// Lendo um número
+       
+        if(n1 % 2 == 0)// Verificando se é par
             System.out.print("\n"+n1+" é par");
-        else
+        else// Verificando se é impar
             System.out.print("\n"+n1+" é impar");
     }
 }
